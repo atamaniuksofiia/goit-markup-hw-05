@@ -407,21 +407,26 @@ color: #434455;
 }
 
 /* Footer*/
-
+.footer-container{
+    align-items: baseline;
+    display: flex;
+}
 .footer-text {
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #f4f4fd;
-width: 264px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+    width: 264px;
 }
 .page-footer {
     background-color: #2e2f42;;
-    padding: 100px 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .page-logo-footer {
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -431,27 +436,32 @@ width: 264px;
     margin-bottom: 16px;
     display: inline-block;
 }
+.text-logo-footer-italic{
+    color: #f4f4fd;
+}
 .text-logo-footer{
     font-weight: 700;
-font-size: 18px;
-line-height: 1.17;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #f4f4fd;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #f4f4fd;
 }
-.footer-media-wrapper{
 
-}
 .footer-media-text{
+    margin-bottom: 16px;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #ffffff;
-margin-bottom: 16px; 
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+    display: inline-block;
 }
 .footer-media-list{
     display: flex;
+    justify-content: center;
     gap: 16px;
 }
 .footer-container{
@@ -465,13 +475,15 @@ margin-bottom: 16px;
   fill: #f4f4fd;
 }
 .footer-media-link{
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background-color:#4d5ae5;
-    display: flex; 
+    fill: #f4f4fd;
+    stroke: none;
+    display: flex;
     align-items: center;
     justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4d5ae5;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-media-link:hover, 
