@@ -626,7 +626,10 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
-margin-bottom: 8px;
+margin-bottom: 16px;
+}
+.contact-form-field-wrapper{
+    margin-bottom: 8px;
 }
 .contact-form-field-label{
     display: block;
